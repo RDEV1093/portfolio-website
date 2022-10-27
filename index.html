@@ -3,6 +3,12 @@
 <head>
   <meta charset="utf-8">
   <title>home_my work page</title>
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500;600&family=Nunito+Sans:wght@300&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 <header>
@@ -20,7 +26,7 @@
 <main>
   <div>
     <div>
-      <h1>
+      <h1 id="hero-section">
         Hi, my name is Roslyn Devassy.
         <span>
         I am a UI Designer from Pennsylvania!
@@ -33,8 +39,7 @@
   </div>
   <div>
     <div>
-      <h2>My work</h2>
-      <div>
+      <h2 id="work-section">My work</h2>
         <div>
           <picture>
             <source srcset="http://via.placeholder.com/600x400" media="(max-width:767px)">
@@ -45,9 +50,8 @@
           <h3>Beauty Adored</h3>
           <p>When creating Beauty Adored, I took inspiration from my own experiences, conducted a competitive analysis to look at the strengths and weaknesses of current apps, and identified opportunities to fulfill an unmet need. After identifying the need, a user flow diagram, iOS, and Android wireframes, style guide, prototype, mockups, and final UI designs were created to bring the product to life.
           </p>
-          <a href="beauty adored.html">view project</a>
+          <a href="beauty-adored.html" class="button">view project</a>
         </div>
-      </div>
       <div>
         <div>
           <picture>
@@ -55,12 +59,14 @@
             <img src="http://via.placeholder.com/1200x800" alt="My Image">
           </picture>
         </div>
+      </div>
+    </div>
         <div>
           <h3>Flavorful</h3>
           <p>Creation of Flavorful involved analysis of two competitor apps, understanding users' patterns, frustrations, and needs, creating user personas, creating an MVP, and user flow diagram to start. The process also involved sketching and creating a paper prototype, conducting usability testing, producing wireframes, and creating mood boards to decide on a visual direction, a style guide, mockups, and the final UI and responsive designs for the app.</p>
-          <a href="">view project</a>
+          <a href="" class="button">view project</a>
         </div>
-      </div>
+  </div>
   </main>
   <footer id="contact">
     <a href="#contact">Contact</a>
@@ -70,11 +76,24 @@
       <p>If you would like to contact me with any questions or feedback, my contact information can be found here. I welcome all inquiries! Phone:<a href="tel:2677607183">2677607183</a> or Skype me at <a href="Skype:rdev1093@gmail.com">rdev1093@gmail.com</a>. Prefer sending an email?
       </p>
       <div>
-        <a href="mailto:roslyndevassy@gmail.com">Email me</a>
+        <a href="mailto:roslyndevassy@gmail.com" class="button contact">Email me</a>
       </div>
       <div>
         <a href="https://www.linkedin.com/in/roslyn-devassy-6a6358238/" target="_blank">
           <svg enable-background="new 0 0 32 32" height="32px" id="Layer_1" version="1.0" viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g><path d="M32,30c0,1.104-0.896,2-2,2H2c-1.104,0-2-0.896-2-2V2c0-1.104,0.896-2,2-2h28c1.104,0,2,0.896,2,2V30z" fill="#007BB5"/><g><rect fill="#FFFFFF" height="14" width="4" x="7" y="11"/><path d="M20.499,11c-2.791,0-3.271,1.018-3.499,2v-2h-4v14h4v-8c0-1.297,0.703-2,2-2c1.266,0,2,0.688,2,2v8h4v-7    C25,14,24.479,11,20.499,11z" fill="#FFFFFF"/><circle cx="9" cy="8" fill="#FFFFFF" r="2"/></g></g><g/><g/><g/><g/><g/><g/></svg>
+        </a>
+        <a href="https://www.behance.net/roslyndevassy" target="_blank">
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g clip-path="url(#clip0_8_8)">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M3.55556 32H28.4444C30.4081 32 32 30.4081 32 28.4444V3.55556C32 1.59188 30.4081 0 28.4444 0H3.55556C1.59188 0 0 1.59188 0 3.55556V28.4444C0 30.4081 1.59188 32 3.55556 32Z" fill="#0863FF"/>
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M18.9652 11.5582H24.6147V9.93968H18.9652V11.5582ZM20.3036 15.0899C19.9436 15.4562 19.7166 15.9524 19.6237 16.5785H24.0176C23.9712 15.9103 23.7429 15.4054 23.339 15.0577C22.9301 14.7125 22.4271 14.5405 21.8251 14.5405C21.1728 14.5405 20.6636 14.7236 20.3036 15.0899ZM24.1167 12.9169C24.7978 13.2164 25.3585 13.6916 25.8 14.34C26.2026 14.9117 26.461 15.5749 26.5789 16.3285C26.6479 16.7691 26.6755 17.4076 26.6642 18.2379H19.561C19.6037 19.2019 19.9398 19.8787 20.582 20.266C20.9709 20.5073 21.4387 20.6286 21.9881 20.6286C22.5664 20.6286 23.0392 20.4814 23.4017 20.1881C23.6012 20.0285 23.7768 19.8082 23.9273 19.5261H26.53C26.461 20.0953 26.1449 20.6756 25.5855 21.2647C24.7125 22.1989 23.4895 22.6667 21.9179 22.6667C20.6197 22.6667 19.4745 22.2732 18.4848 21.4837C17.4902 20.6954 16.9959 19.411 16.9959 17.634C16.9959 15.9672 17.4437 14.6889 18.3381 13.7992C19.2349 12.912 20.3951 12.4653 21.8238 12.4653C22.673 12.4653 23.4369 12.6162 24.1167 12.9169ZM7.96112 16.6131V20.0817H11.1621C11.7341 20.0817 12.1806 20.005 12.498 19.8527C13.0762 19.5681 13.3647 19.0286 13.3647 18.2292C13.3647 17.5511 13.0863 17.0871 12.5256 16.8334C12.212 16.6923 11.7717 16.6181 11.2073 16.6131H7.96112ZM7.96112 11.5917V14.4613H11.1671C11.7379 14.4613 12.2032 14.3536 12.5619 14.1383C12.9182 13.923 13.0975 13.5418 13.0975 12.9974C13.0975 12.3898 12.8617 11.9901 12.3901 11.7946C11.9812 11.6597 11.4619 11.5917 10.831 11.5917H7.96112ZM15.1207 10.7193C15.5234 11.2724 15.7253 11.9332 15.7253 12.7041C15.7253 13.4973 15.5234 14.137 15.1157 14.6196C14.8874 14.8894 14.5525 15.1369 14.1098 15.3596C14.7821 15.6022 15.2888 15.9845 15.6338 16.508C15.9749 17.0302 16.1468 17.6662 16.1468 18.4136C16.1468 19.1845 15.9511 19.8763 15.5585 20.4876C15.3102 20.8922 14.9991 21.2337 14.6253 21.5109C14.2051 21.8289 13.7096 22.0455 13.1364 22.1643C12.5632 22.2818 11.9436 22.3387 11.2738 22.3387H5.33333V9.33334H11.704C13.312 9.35685 14.4497 9.81841 15.1207 10.7193Z" fill="white"/>
+          </g>
+          <defs>
+          <clipPath id="clip0_8_8">
+          <rect width="32" height="32" fill="white"/>
+          </clipPath>
+          </defs>
+          </svg>
         </a>
       </div>
       <p>Copyright Roslyn Devassy 2022</p>

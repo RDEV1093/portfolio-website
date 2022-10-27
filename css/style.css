@@ -1,0 +1,111 @@
+/*
+Colors used:
+Primary Color (Cream): #FCF7EE;
+Secondary Color (Pink): #FFDAE2;
+Secondary Color (Green): #BCD0C2;
+Tertiary Color (Blue): #0B3540;
+Accent (Black): #000000;
+*/
+body {
+  background-color: #FCF7EE;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 16px; /* Sets the font size to 16px */
+  font-weight: 300; /* Sets the font weight to 300 */
+  line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
+  color: #0B3540;
+}
+
+h1, h2, h3, h4 {
+  line-height: 1.4;
+}
+h1 {
+  font-family: 'Lora', serif;
+  font-size: 2.75em;
+  font-weight: 600;
+  color: #0B3540;
+}
+
+h2 {
+  font-family: 'Lora', serif;
+  font-size: 2.25em;
+  font-weight: 500;
+  color: #0B3540;
+}
+
+h3 {
+  font-family: 'Lora', serif;
+  font-size: 1.75em;
+  font-weight: 500;
+  color: #0B3540;
+}
+h4 {
+  font-family: 'Lora', serif;
+  font-size: 1.35em;
+  font-weight: 500;
+  color: #0B3540;
+}
+p {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 16px; /* Sets the font size to 16px */
+  font-weight: 300; /* Sets the font weight to 300 */
+  line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
+  color: #0B3540;
+}
+img {
+  width: 100%;
+}
+a {
+  color: #0B3540;
+  text-decoration: none; /* No underlining */
+}
+a:visited { /* visited link */
+  color: #000000;
+}
+a:hover,
+a:focus {
+  color: #97B1B8;
+  text-decoration: underline;
+}
+a:active { /* selected link */
+  color: #FFDAE2;
+}
+.button {
+  display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
+  background-color: #BCD0C2;
+  color: #0B3540; /* needed to override the default link color */
+  font-weight: 300;
+  padding: 10px;
+  border-radius: 3px;
+  border-bottom: 2px solid #0B3540; /* width of the border, type, color */
+  transition: 0.2s opacity;
+}
+.button:hover {
+  opacity: 0.8; /* Reduces the opacity of the button to 80% */
+  text-decoration: none;
+  color: #0B3540;
+}
+.button:active{ /* selected link */
+  color: #FFDAE2;
+}
+.button.contact {
+  background-color: transparent;
+  color: #0B3540;
+  text-transform: uppercase;
+  border: 2px solid #0B3540;
+}
+.button.contact:hover {
+  background-color: #0B3540;
+  color: #ffffff;
+}
+.button.contact:active {
+  color: #FFDAE2;
+}
+#hero-section {
+  color: #000000;
+}
+#work-section {
+  color: #0B3540
+}
+#contact {
+  color: #5E8680
+}
