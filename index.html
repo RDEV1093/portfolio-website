@@ -12,10 +12,10 @@
 </head>
 <body>
 <header>
-  <div>
-    <img src="https://via.placeholder.com/150x50?text=Logo" alt="Roslyn">
+  <div class="container">
+    <img src="logo.svg" alt="Logo"/ class="logo">
     <nav>
-      <ul>
+      <ul class="navigation">
         <li><a href="index.html">Work</a></li>
         <li><a href="about.html">About</a></li>
         <li><a href="#contact">Contact</a></li>
@@ -24,9 +24,9 @@
   </div>
 </header>
 <main>
-  <div>
-    <div>
-      <h1 id="hero-section">
+  <div id="hero">
+    <div class="container">
+      <h1>
         Hi, my name is Roslyn Devassy.
         <span>
         I am a UI Designer from Pennsylvania!
@@ -37,23 +37,23 @@
       </p>
     </div>
   </div>
-  <div>
-    <div>
-      <h2 id="work-section">My work</h2>
-        <div>
+  <div id="work">
+    <div class="container">
+      <h2>My work</h2>
+        <div class="row">
           <picture>
             <source srcset="http://via.placeholder.com/600x400" media="(max-width:767px)">
             <img src="http://via.placeholder.com/1200x800" alt="My Image">
           </picture>
         </div>
-        <div>
+        <div class="row">
           <h3>Beauty Adored</h3>
           <p>When creating Beauty Adored, I took inspiration from my own experiences, conducted a competitive analysis to look at the strengths and weaknesses of current apps, and identified opportunities to fulfill an unmet need. After identifying the need, a user flow diagram, iOS, and Android wireframes, style guide, prototype, mockups, and final UI designs were created to bring the product to life.
           </p>
           <a href="beauty-adored.html" class="button">view project</a>
         </div>
       <div>
-        <div>
+        <div class="row">
           <picture>
             <source srcset="http://via.placeholder.com/600x400" media="(max-width:767px)">
             <img src="http://via.placeholder.com/1200x800" alt="My Image">
@@ -61,17 +61,21 @@
         </div>
       </div>
     </div>
-        <div>
-          <h3>Flavorful</h3>
-          <p>Creation of Flavorful involved analysis of two competitor apps, understanding users' patterns, frustrations, and needs, creating user personas, creating an MVP, and user flow diagram to start. The process also involved sketching and creating a paper prototype, conducting usability testing, producing wireframes, and creating mood boards to decide on a visual direction, a style guide, mockups, and the final UI and responsive designs for the app.</p>
-          <a href="" class="button">view project</a>
+        <div id="work">
+          <div class="container">
+            <h3>Flavorful</h3>
+              <div class="row">
+                <p>Creation of Flavorful involved analysis of two competitor apps, understanding users' patterns, frustrations, and needs, creating user personas, creating an MVP, and user flow diagram to start. The process also involved sketching and creating a paper prototype, conducting usability testing, producing wireframes, and creating mood boards to decide on a visual direction, a style guide, mockups, and the final UI and responsive designs for the app.</p>
+                <a href="" class="button">view project</a>
+              </div>
+          </div>
         </div>
   </div>
   </main>
   <footer id="contact">
     <a href="#contact">Contact</a>
     <a href="about.html#skills">My Skills</a>
-    <div>
+    <div class="container">
       <h2>Get in Touch</h2>
       <p>If you would like to contact me with any questions or feedback, my contact information can be found here. I welcome all inquiries! Phone:<a href="tel:2677607183">2677607183</a> or Skype me at <a href="Skype:rdev1093@gmail.com">rdev1093@gmail.com</a>. Prefer sending an email?
       </p>

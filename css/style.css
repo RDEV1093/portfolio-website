@@ -6,6 +6,9 @@ Secondary Color (Green): #BCD0C2;
 Tertiary Color (Blue): #0B3540;
 Accent (Black): #000000;
 */
+* {
+  box-sizing: border-box;
+}
 body {
   background-color: #FCF7EE;
   font-family: 'Nunito Sans', sans-serif;
@@ -100,12 +103,94 @@ a:active { /* selected link */
 .button.contact:active {
   color: #FFDAE2;
 }
-#hero-section {
+#hero {
   color: #000000;
 }
-#work-section {
+#work {
   color: #0B3540
 }
 #contact {
   color: #5E8680
+}
+/* Layout styling */
+.container {
+  padding: 0 15px;
+}
+.row {
+  margin: 25px 0; /* 25px top and bottom, 0 left and right */
+}
+#work .row { padding-bottom: 25px; border-bottom: 1px solid #0B3540; }
+#hero h1 {
+  text-align: center; /* Centers text */
+}
+.center {
+  text-align: center;
+}
+.logo {
+  max-width: 250px;
+}
+header {
+  background-color: #FCF7EE;
+  text-align: center;
+  padding: 10px 0;
+  box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+  position: relative;
+}
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+}
+nav > ul > li {
+  display: inline-block;
+}
+nav > ul > li > a {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 300;
+  color: #0B3540;
+}
+nav > ul > li > a:visited {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 300;
+  color: #000000;
+}
+nav > ul > li > a:hover {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 300;
+  color: #97B1B8;
+}
+nav > ul > li > a:active {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 300;
+  color: #FFDAE2;
+}
+#hero {
+  background-color: #FCF7EE;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+}
+#hero p {
+  text-align: center;
+}
+#work h2 {
+  text-align: center;
+}
+#contact h2 {
+  text-align: center;
+}
+#contact p {
+  text-align: center;
+}
+#contact a {
+  text-align: center;
+}
+#contact div {
+  text-align: center;
+}
+#hero h2 {
+  text-align: center;
 }
