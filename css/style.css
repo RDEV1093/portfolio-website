@@ -223,6 +223,11 @@ nav > ul > li > a:active {
 .cloud-back {
   animation: 34s cloud-move-reverse infinite alternate linear;
 }
+.link {
+  display: inline-block;
+  padding: 0 20px;
+  text-transform: uppercase;
+}
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
