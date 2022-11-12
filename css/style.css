@@ -127,21 +127,18 @@ a:active { /* selected link */
   text-align: center;
 }
 .logo {
-  max-width: 250px;
+  max-width: 150px;
 }
 header {
   background-color: #FCF7EE;
-  text-align: center;
-  padding: 10px 0;
+  padding: 10px 0 4px;
   box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
   position: relative;
 }
 nav > ul {
   list-style-type: none;
   padding: 0;
-}
-nav > ul > li {
-  display: inline-block;
+  margin: 0;
 }
 nav > ul > li > a {
   padding: 0 15px;
@@ -228,6 +225,39 @@ nav > ul > li > a:active {
   padding: 0 20px;
   text-transform: uppercase;
 }
+.social-2 {
+  margin-top:20px;
+}
+.img-2 {
+  width: 32px;
+}
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 2px;
+  font-size: 20px;
+  padding-right: 0;
+}
+.navtoggle.responsive li  {
+  display: block;
+  padding: 10px 0;
+  border-top: 1px solid #0B3540;
+}
+.navtoggle.responsive nav {
+  padding: 24px 0 0;
+}
+.navtoggle.responsive li:last-child  {
+  padding: 0 0 10px;
+}
+main {
+  padding-top: 56px;
+}
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
@@ -258,6 +288,21 @@ Medium devices (640px and larger)
     content: "";
     clear: both;
     display: table;
+  }
+  .logo {
+    max-width: 250px;
+  }
+  nav > ul > li {
+    display: inline-block;
+  }
+  .navtoggle li:not(:last-child) {
+  display: inline-block;
+  }
+  .navtoggle li:last-child {
+  display: none;
+  }
+  nav > ul {
+  margin: 1em 0;
   }
 }
 /* ==============================
