@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
 <head>
   <meta charset="utf-8">
-  <title>project page</title>
+  <title>Project Page</title>
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,16 +14,19 @@
 <body>
   <header>
     <div class="container">
-      <a href="index.html">
-        <img src="logo.svg" alt="Logo"/ class="logo">
-      </a>
+      <div class="navtoggle" id="myNavtoggle">
+        <a href="index.html">
+          <img src="logo.svg" alt="Logo" class="logo">
+        </a>
       <nav>
         <ul class="navigation">
           <li><a href="index.html">Work</a></li>
           <li><a href="about.html">About</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#contact" onclick="menuToggle()">Contact</a></li>
+          <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
         </ul>
       </nav>
+      </div>
     </div>
   </header>
   <main>
@@ -36,8 +39,8 @@
       <div class="container">
         <div class="row">
           <picture>
-            <source srcset="http://via.placeholder.com/600x400" media="(max-width:767px)">
-            <img src="http://via.placeholder.com/1200x800" alt="My Image">
+            <source srcset="img/beauty-adored/Beauty-Adored-Mockup-2@1x.jpg" media="(max-width:767px)">
+            <img src="img/beauty-adored/Beauty-Adored-Mockup-2@2x.jpg" alt="Beauty Adored Introductory Image">
           </picture>
         </div>
         <p>Growing up, a lot of us in the indian community did not know how to best address our skin and hair concerns and what products would work best for our natural hair and skin tone. It was difficult to find products that matched our skin tone, sunscreen that worked for our complexion, and we did not have many resources available to help us address our skin concerns. This was a prevalent issue for my friends in my Indian community and also my friends from other communities with deeper complexions.I wanted to create an app that celebrates all complexions, and promotes inclusivity, diversity, and acts as an all in one resource where users can learn how to best meet their specific needs.</p>
@@ -48,32 +51,32 @@
           </div>
         </div>
         <picture>
-          <source srcset="http://via.placeholder.com/600x400" media="(max-width:767px)">
-          <img src="http://via.placeholder.com/1200x800" alt="My Image">
+          <source srcset="img/beauty-adored/Beauty-Adored-Research@1x.jpg" media="(max-width:767px)">
+          <img src="img/beauty-adored/Beauty-Adored-Research@2x.jpg" alt="Research Image">
         </picture>
         <h3>Research</h3>
         <p>An analysis of similar beauty apps was conducted to learn what is available to users on the market, their strengths and weaknesses, and determine if an unmet need exists.</p>
         <picture>
-          <source srcset="http://via.placeholder.com/600x400" media="(max-width:767px)">
-          <img src="http://via.placeholder.com/1200x800" alt="My Image">
+          <source srcset="img/beauty-adored/Beauty-Adored-User-Flow-Diagram@1x.jpg" media="(max-width:767px)">
+          <img src="img/beauty-adored/Beauty-Adored-User-Flow-Diagram@2x.jpg" alt="Ideation Image">
         </picture>
         <h3>Ideation</h3>
         <p>Research into existing apps unveiled the need for increasing user reach by providing people of color with an app that addresses their specific needs and makes finding this information more accessible. Creating a user flow diagram helped map out how users would navigate throughout the app and what content would be essential and most helpful to include for users.</p>
         <picture>
-          <source srcset="http://via.placeholder.com/600x400" media="(max-width:767px)">
-          <img src="http://via.placeholder.com/1200x800" alt="My Image">
+          <source srcset="img/beauty-adored/Beauty-Adored-Low-fidelity@1x.jpg" media="(max-width:767px)">
+          <img src="img/beauty-adored/Beauty-Adored-Low-fidelity@2x.jpg" alt="Wireframes Image">
         </picture>
         <h3>Wireframes</h3>
         <p>Creating low and mid-fidelity wireframes helped visualize the app's layout for iOS and Android, adhering to both platforms' user interface guidelines.</P>
         <picture>
-          <source srcset="http://via.placeholder.com/600x400" media="(max-width:767px)">
-          <img src="http://via.placeholder.com/1200x800" alt="My Image">
+          <source srcset="img/beauty-adored/Beauty-Adored-Style-Guide@1x.jpg" media="(max-width:767px)">
+          <img src="img/beauty-adored/Beauty-Adored-Style-Guide@2x.jpg" alt="Design Image">
         </picture>
         <h3>Design</h3>
         <p>When thinking about the design for the app, creating a style guide helped to detail the color palette, typography, elements, imagery, icons, and language guidelines to get a sense of the look and feel of the app for both iOS and Android platforms. Once established, the styles were applied to create high-fidelity wireframes and mockups for the final UI design for the app.</p>
         <picture>
-          <source srcset="http://via.placeholder.com/600x400" media="(max-width:767px)">
-          <img src="http://via.placeholder.com/1200x800" alt="My Image">
+          <source srcset="img/beauty-adored/Beauty-Adored-Prototype@1x.jpg" media="(max-width:767px)">
+          <img src="img/beauty-adored/Beauty-Adored-Prototype@2x.jpg" alt="Prototype Image">
         </picture>
         <h3>Prototype</h3>
         <p>Creating a prototype using InVision helped uncover existing user pain points, if all information was clear, if the app was easy to navigate through, and if any information was missing that users found valuable.</p>

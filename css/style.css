@@ -184,6 +184,7 @@ nav > ul > li > a:active {
 }
 #contact a {
   text-align: center;
+  margin: 0 5px;
 }
 #contact div {
   text-align: center;
@@ -207,8 +208,8 @@ nav > ul > li > a:active {
   animation: 4s color-change infinite alternate linear;
 }
 @keyframes cloud-move {
-  from {transform: translate(0,50px);}
-  to {transform: translate(200px,80px);}
+  from {transform: translate(0,0px);}
+  to {transform: translate(200px,0px);}
 }
 .cloud-front {
   animation: 30s cloud-move infinite alternate linear;
