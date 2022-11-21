@@ -305,6 +305,9 @@ Medium devices (640px and larger)
   nav > ul {
   margin: 1em 0;
   }
+  .padding {
+    padding-right: 10px;
+  }
 }
 /* ==============================
 Large devices (1024px or larger)
@@ -323,6 +326,9 @@ Large devices (1024px or larger)
   }
   body {
     font-size: 18px;
+  }
+  .margin-1 {
+    margin:0px;
   }
 }
 /* ==============================
