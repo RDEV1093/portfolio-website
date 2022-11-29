@@ -248,7 +248,7 @@ nav > ul > li > a:active {
 .navtoggle.responsive li  {
   display: block;
   padding: 10px 0;
-  border-top: 1px solid #0B3540;
+  border-top: 0;
 }
 .navtoggle.responsive nav {
   padding: 24px 0 0;
@@ -308,6 +308,12 @@ Medium devices (640px and larger)
   .padding {
     padding-right: 10px;
   }
+  .more-padding {
+    padding-right: 50px;
+  }
+  .more-padding-2 {
+    padding-left: 50px;
+  }
 }
 /* ==============================
 Large devices (1024px or larger)
@@ -329,6 +335,12 @@ Large devices (1024px or larger)
   }
   .margin-1 {
     margin:0px;
+  }
+  #no-margin {
+    margin-top: 0;
+  }
+  .more-padding-2 {
+    padding-left: 100px;
   }
 }
 /* ==============================
